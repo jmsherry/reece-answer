@@ -1,6 +1,7 @@
 import './App.css';
-import Rating from './pages/Rating.jsx';
-import styledComponents from 'styled-components';
+import RatingApp from '../src/pages/RatingApp'
+
+
 
 
 
@@ -8,7 +9,7 @@ import styledComponents from 'styled-components';
 function App() {
   return (
     <div className="App">
-    <Rating />
+    <RatingApp />
     </div>
   );
 }
