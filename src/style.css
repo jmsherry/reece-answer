@@ -91,6 +91,12 @@
   justify-content: center;
 }
 
+.numberSelector:hover {
+  background: hsl(25, 97%, 53%);
+  border: 1px solid hsl(25, 97%, 53%);
+  
+}
+
 /* SUBMIT BUTTON */
 
 .btnContainer {

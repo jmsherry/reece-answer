@@ -18,7 +18,7 @@ function RatingApp() {
     <>
       <div className="appContainer">
         <div className="starContainer">
-          <img src={StarIcon} className="starIcon" />
+          <img src={StarIcon} className="starIcon" alt="Star Icon " />
         </div>
         <h1 className="ratingHeading">How did we do?</h1>
         <p className="ratingText">
