@@ -46,7 +46,8 @@
 
 /* HEADING */
 
-.ratingHeading {
+.ratingHeading,
+.thanksHeading {
   font-family: "Overpass", sans-serif;
   font-weight: 700;
   color: hsl(0, 0%, 100%);
@@ -57,7 +58,8 @@
 
 /* RATING TEXT */
 
-.ratingText {
+.ratingText,
+.thanksText {
   display: flex;
   font-family: "Overpass", sans-serif;
   color: hsl(217, 12%, 63%);
@@ -94,7 +96,6 @@
 .numberSelector:hover {
   background: hsl(25, 97%, 53%);
   border: 1px solid hsl(25, 97%, 53%);
-  
 }
 
 /* SUBMIT BUTTON */
@@ -117,4 +118,50 @@
   height: 20%;
   font-size: 12px;
   justify-content: center;
+}
+
+/* Rating Thank You Page */
+
+.thanksHeading,
+.thanksText {
+  text-align: center;
+}
+
+.ratingDisplay {
+  color: white;
+}
+
+/* Image */
+
+.imageContainer {
+  text-align: center;
+}
+
+.thankYouImage {
+  height: 6em;
+}
+
+/* Confirmation text */
+
+.confirmationContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.confirmationText {
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: hsl(25, 97%, 53%, 0.7);
+  background-color: hsl(216, 12%, 54%, 0.1);
+  border-radius: 15px;
+  padding: 6px 8px;
+  /* width: 50%; */
+}
+
+.thanksText {
+  font-weight: 700;
+  line-height: 1.5;
+  margin-left: 8px;
+  margin-right: 8px;
 }
