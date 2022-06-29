@@ -1,7 +1,6 @@
 import './App.css';
 
 import RatingApp from '../src/pages/RatingApp';
-import RatingThankYou from './pages/RatingThankYou';
 
 
 
