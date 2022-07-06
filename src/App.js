@@ -1,17 +1,26 @@
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import RatingApp from '../src/pages/RatingApp';
-
-
-
+import { RatingProvider } from "./contexts/rating.context";
+import "./App.css";
 
 
+
+// Pages
+import RatingApp from "../src/pages/RatingApp";
+import RatingThankYou from "./pages/RatingThankYou";
+
+console.log(RatingProvider)
 
 function App() {
   return (
-    <div className="App">
-      <RatingApp />
-    </div>
+    <Router>
+      <RatingProvider>
+        <Routes>
+          <Route path="/" element={<RatingApp />} />
+          <Route path="ThankYou" element={<RatingThankYou />} />
+        </Routes>
+      </RatingProvider>
+    </Router>
   );
 }
 

@@ -4,7 +4,7 @@ import React from 'react'
 
 function NumberSelector({ handler, number }) {
     return (
-      <button className="numberSelector" onClick={handler}>
+      <button className="numberSelector" onClick={() => handler(number)}>
         {number}
       </button>
     );
